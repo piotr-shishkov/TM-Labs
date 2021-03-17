@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee5cb8f4227a074ca396d0697120307, type: 3}
+  m_Name: Scene 1
+  m_EditorClassIdentifier: 
+  BackGroundSprite: {fileID: 21300000, guid: 51532ef1b08faea44aad164e65b68b81, type: 3}
+  Replicas:
+  - CharName: Guest
+    Side: 1
+    CharReplica: ..and 2 lasagna please
+    CharSprite: {fileID: 21300000, guid: a1f0cb2a1d02aeb498d33a31794866c6, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  - CharName: Arjun
+    Side: 2
+    CharReplica: Anything else?
+    CharSprite: {fileID: 21300000, guid: a90c768d0c9226841ad88a74602484fe, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  - CharName: Guest
+    Side: 1
+    CharReplica: No, that's all
+    CharSprite: {fileID: 21300000, guid: a1f0cb2a1d02aeb498d33a31794866c6, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  - CharName: Arjun
+    Side: 2
+    CharReplica: Drinks will be in 10 minutes, Lasagna in 30
+    CharSprite: {fileID: 21300000, guid: a90c768d0c9226841ad88a74602484fe, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  - CharName: Guest
+    Side: 1
+    CharReplica: Oh, can I also ha...
+    CharSprite: {fileID: 21300000, guid: a1f0cb2a1d02aeb498d33a31794866c6, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  - CharName: SOUND
+    Side: 1
+    CharReplica: 
+    CharSprite: {fileID: 0}
+    SoundReplica:
+      SoundCaption: '*gunshots interrupt guest*'
+      SoundClip: {fileID: 8300000, guid: da664db2e2420cf49b3f840e415f50c3, type: 3}
+  - CharName: Arjun
+    Side: 2
+    CharReplica: What the?
+    CharSprite: {fileID: 21300000, guid: a90c768d0c9226841ad88a74602484fe, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  StateAnswers:
+  - AnswerText: Go Next!
+    NextState: {fileID: 11400000, guid: 277609248ca9faf43890b3d54f503265, type: 2}
+  StateAmbient: {fileID: 8300000, guid: 262c3127d25c8844aa46fa170b8e0aaf, type: 3}

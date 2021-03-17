@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee5cb8f4227a074ca396d0697120307, type: 3}
+  m_Name: Scene 6
+  m_EditorClassIdentifier: 
+  BackGroundSprite: {fileID: 21300000, guid: fadaa25eae4791f40960fa87f3432811, type: 3}
+  Replicas:
+  - CharName: David
+    Side: 1
+    CharReplica: '*knocks the door*'
+    CharSprite: {fileID: 21300000, guid: 67175cde65579c74a91a2e54fa316c70, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  - CharName: 'SOUND: Knocking'
+    Side: 1
+    CharReplica: '*knocks the door*'
+    CharSprite: {fileID: 21300000, guid: 67175cde65579c74a91a2e54fa316c70, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 8300000, guid: e4aa775496b728e46a72b5b342ece0fc, type: 3}
+  - CharName: 'SOUND: Open Door'
+    Side: 1
+    CharReplica: '*knocks the door*'
+    CharSprite: {fileID: 21300000, guid: 67175cde65579c74a91a2e54fa316c70, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 8300000, guid: 9cc38193d60cb2b4c8be8b7c02bab4a1, type: 3}
+  - CharName: Babysitter
+    Side: 2
+    CharReplica: David! Thank goodness you are here. I calmed James, but he is still
+      afraid
+    CharSprite: {fileID: 21300000, guid: dd81f9b20837c4d4fbd2b816d80af8cf, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  - CharName: David
+    Side: 1
+    CharReplica: Jamy! Thank you Arjun, but what are we going to do now?
+    CharSprite: {fileID: 21300000, guid: 67175cde65579c74a91a2e54fa316c70, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  - CharName: Arjun
+    Side: 2
+    CharReplica: Hm...
+    CharSprite: {fileID: 21300000, guid: a90c768d0c9226841ad88a74602484fe, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  StateAnswers:
+  - AnswerText: Take them to VIP room
+    NextState: {fileID: 11400000, guid: d4f18baaed707d24ea3115714de089ec, type: 2}
+  - AnswerText: Leave them and go to security room to guide others
+    NextState: {fileID: 11400000, guid: 354b8a70567641b4fbdc6aeaf6c35192, type: 2}
+  StateAmbient: {fileID: 8300000, guid: 6038ce54b148887438d850774fedc1e4, type: 3}

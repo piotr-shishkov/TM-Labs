@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee5cb8f4227a074ca396d0697120307, type: 3}
+  m_Name: Scene 20
+  m_EditorClassIdentifier: 
+  BackGroundSprite: {fileID: 21300000, guid: 51532ef1b08faea44aad164e65b68b81, type: 3}
+  Replicas:
+  - CharName: Arjun
+    Side: 1
+    CharReplica: It's a rescue group!
+    CharSprite: {fileID: 21300000, guid: 6c7b3c20daecfc842b1955fa307735fc, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  - CharName: Commando Officer
+    Side: 2
+    CharReplica: Are you okay? Can you walk? Come with us!
+    CharSprite: {fileID: 21300000, guid: 8604b2dca95e0374192fb56054da4146, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  StateAnswers: []
+  StateAmbient: {fileID: 8300000, guid: 282e6f324d4b0854aa1ebcc410b4047b, type: 3}

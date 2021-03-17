@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee5cb8f4227a074ca396d0697120307, type: 3}
+  m_Name: Scene 10
+  m_EditorClassIdentifier: 
+  BackGroundSprite: {fileID: 21300000, guid: 016d48c3626cb804f89b1745ad0e60c7, type: 3}
+  Replicas:
+  - CharName: 'SOUND: Police Siren'
+    Side: 0
+    CharReplica: 
+    CharSprite: {fileID: 0}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 8300000, guid: 66d620bcf45d46d47837fc1be7aa943b, type: 3}
+  - CharName: 'SOUND: Police Radio'
+    Side: 0
+    CharReplica: 
+    CharSprite: {fileID: 0}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 8300000, guid: c513b56c8055c554ca91fe664d90dcde, type: 3}
+  - CharName: David
+    Side: 1
+    CharReplica: Arjun do you hear this?
+    CharSprite: {fileID: 21300000, guid: 67175cde65579c74a91a2e54fa316c70, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  - CharName: Commando Officer
+    Side: 2
+    CharReplica: Ready? GO!
+    CharSprite: {fileID: 21300000, guid: 8604b2dca95e0374192fb56054da4146, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  - CharName: HIDE
+    Side: 1
+    CharReplica: HIDE
+    CharSprite: {fileID: 21300000, guid: 8604b2dca95e0374192fb56054da4146, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  - CharName: 'SOUND: FBI OPEN UP'
+    Side: 2
+    CharReplica: 
+    CharSprite: {fileID: 0}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 8300000, guid: 62feef1935eb9104097cdabe4aea73e8, type: 3}
+  - CharName: Commando Officer
+    Side: 2
+    CharReplica: Finally we found survivors
+    CharSprite: {fileID: 21300000, guid: 8604b2dca95e0374192fb56054da4146, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  StateAnswers: []
+  StateAmbient: {fileID: 0}

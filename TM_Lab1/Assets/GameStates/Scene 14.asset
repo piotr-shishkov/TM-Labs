@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee5cb8f4227a074ca396d0697120307, type: 3}
+  m_Name: Scene 14
+  m_EditorClassIdentifier: 
+  BackGroundSprite: {fileID: 21300000, guid: 8002935f87d906d488149f11e838d4d9, type: 3}
+  Replicas:
+  - CharName: 'SOUND: Knocking'
+    Side: 1
+    CharReplica: '*knocks the door*'
+    CharSprite: {fileID: 21300000, guid: 67175cde65579c74a91a2e54fa316c70, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 8300000, guid: e4aa775496b728e46a72b5b342ece0fc, type: 3}
+  - CharName: David
+    Side: 1
+    CharReplica: Please open it's me David!!!!
+    CharSprite: {fileID: 21300000, guid: 67175cde65579c74a91a2e54fa316c70, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 0}
+  - CharName: 'SOUND: Open Door'
+    Side: 1
+    CharReplica: '*knocks the door*'
+    CharSprite: {fileID: 21300000, guid: 67175cde65579c74a91a2e54fa316c70, type: 3}
+    SoundReplica:
+      SoundCaption: 
+      SoundClip: {fileID: 8300000, guid: 9cc38193d60cb2b4c8be8b7c02bab4a1, type: 3}
+  StateAnswers:
+  - AnswerText: Go Next!
+    NextState: {fileID: 11400000, guid: a5c7fd90249cfbb40a769e8fa44eb9a9, type: 2}
+  StateAmbient: {fileID: 0}
